@@ -1,0 +1,95 @@
+body {
+    background-color: #222222;
+}
+h1 {
+    color: orange;
+}
+h2 {
+    color: #aaa;
+}
+h3 {
+    color: #aaa;
+}
+p {
+    color: orange;
+}
+
+#paneHeader{
+	position:fixed;
+	top:0px; left:0px; right:0px;
+	padding-top: 10px;
+	padding-left: 10px;
+	height: 50px;
+	background-color: #333;
+	color: orange;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 30px
+
+}
+
+#panelContent{
+	background-color: #222;
+ 	padding-top: 10px;
+	color: black;
+	margin-top: 80px;
+}
+
+#panelLogout{
+	float: right;
+	padding-right: 30px;
+}
+
+#panelStatus{
+	background-color: #333;
+	height: 40px;
+	vertical-align: middle;
+	padding-top: 20px;
+	padding-left: 20px;
+	color: #aaa;
+	margin-bottom: 10px;
+}
+
+#panelMods{
+	background-color: #333;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	color: #aaa
+}
+
+#panelButton{
+	float: right;
+	margin-right: 5%;
+	margin-top: -5px;
+}
+
+form {
+    display: inline;
+}
+
+iframe {
+  border-top: #c00 1px dotted;
+  border-right: #c00 2px dotted;
+  border-left: #c00 2px dotted;
+  border-bottom: #c00 4px dotted;
+  color: red;
+
+} 
+
+ /* unvisited link */
+a:link {
+    color: orange;
+    padding-right: 20px;
+}
+/* visited link */
+a:visited {
+    color: red;
+}
+/* mouse over link */
+a:hover {
+    color: red;
+}
+/* selected link */
+a:active {
+    color: orange;
+}

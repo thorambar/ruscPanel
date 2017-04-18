@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head><link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}"></head>
+<body>
+	<div id="paneHeader">
+		Control Panel
+		<div id="panelLogout">
+			<form method="POST">
+		    	<input type="submit" name="buttons" value="logout">
+	    	</form>
+	    </div>
+	</div>
+	<div id="panelContent">
+		<div id="panelStatus">
+			The server is {{ sState }}
+			<div id="panelButton">
+				<form method="POST" >
+			    	<input type="submit" name="buttons" value="Start">
+		    	</form>
+
+		    	<form method="POST">
+			    	<input type="submit" name="buttons" value="Stop">
+		    	</form>
+		    </div>
+		</div>
+		<div id="panelMods">
+			<table>
+				{{modStr}}
+			</table>
+		</div>
+	</div>
+
+</body>
+</html>
