@@ -1,5 +1,5 @@
 # Main file of the Web-Controllpanel for Python
-# By Thomas Pach aka. Thoramba dae rusc
+# By Thoramba dae rusc
 
 # ==== Imports ================================
 from flask import Flask, url_for, request, render_template, session, redirect, g, Markup
